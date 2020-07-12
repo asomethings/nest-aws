@@ -1,0 +1,19 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript, typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "eslint.alwaysShowStatus": true,
+    "eslint.validate": ["javascript", "typescript"]
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.associations": {
+    "*.html": "html"
+  },
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "cSpell.words": ["datasets", "datetime", "ngxs", "tabset"],
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true
+}
