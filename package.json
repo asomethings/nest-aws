@@ -3,6 +3,11 @@
   "version": "1.0.0-alpha.0",
   "description": "AWS Module for Nest.js",
   "author": "asomethings <asomethings@kakao.com>",
+  "keywords": [
+    "nest.js",
+    "aws",
+    "node.js"
+  ],
   "license": "MIT",
   "url": "https://github.com/asomethings/nest-aws#readme",
   "scripts": {
