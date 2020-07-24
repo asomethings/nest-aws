@@ -12,7 +12,7 @@ import { AwsServiceType } from './interfaces/aws-service.type'
 @Global()
 @Module({})
 export class AwsModule {
-  public static forRoot(options: AwsModuleOptions): DynamicModule {
+  public static forRoot(options?: AwsModuleOptions): DynamicModule {
     return {
       module: AwsModule,
       providers: this.createProvider(options),
@@ -20,7 +20,7 @@ export class AwsModule {
     }
   }
 
-  private static createProvider(options: AwsModuleOptions): Provider[] {
+  private static createProvider(options?: AwsModuleOptions): Provider[] {
     return [{ provide: AWS_MODULE_OPTIONS, useValue: options || {} }]
   }
 
