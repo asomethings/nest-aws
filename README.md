@@ -6,9 +6,7 @@
 
 **Alpha Release: Use it with caution**
 
-
 AWS Module for Nest.js framework
-
 
 ## Installation
 
@@ -32,7 +30,7 @@ Import AwsModule into root AwsModule
 @Module({
   imports: [
     AwsModule.forRoot({
-      region: 'ap-northeast-2'
+      region: 'ap-northeast-2',
       accessKeyId: 'your-aws-access-key',
       secretAccessKeyId: 'your-aws-secret-key',
     }),
@@ -143,6 +141,6 @@ AwsModule.forRootAsync({
 
 ## TODO
 
-- [ ] Write Tests
+- [x] Write Tests
 - [ ] Support More Options
 - [ ] Seperate AwsModule with AwsCoreModule (Like @nestjs/typeorm)
